@@ -5,6 +5,9 @@ git config --list    Esse comando lista todas as configurações do git
 git config --global user.name "John Doe"    Esse comando configura o nome de usuário nas variáveis git, ou seja, esse nome irá aparecer nos commits
 git config --global user.email johndoe@example.com    Esse comando configura o email
 
+
+Comandos básicos do git
+
 git status     Primeiro comando para verificar os arquivos alterados e novos
 
 git add <nome-do-arquivo> ou git add .        O git add seguido do nome do arquivo vai adicionar para subir somente aquele arquivo, se for 
@@ -12,4 +15,8 @@ o segundo comando git add .  com o ponto após o add, irá adicionar todos os ar
 
 git commit -m "Texto do commit"        Esse comando "assina" tudo que foi adicionado para subir no git add . , ou seja, ele pega os arquivos preparados e aguarda somente o próximo comando para subir os arquivos
 
+git push origin <nome-da-branch>       Esse comando funciona como um "carteiro" ele pega todas as cartas commits e leva para o repositório. O origin no comando não é obrigatório, serve para criar a branch caso não exista no repositório
 
+git checkout <nome-da-branch>      Troca de branchs
+
+git checkout -b <nome-da-branch>      Cria uma branch a partir da qual está naquele momento, ou seja uma cópia
