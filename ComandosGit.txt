@@ -1,1 +1,15 @@
 Extensão para baixar no vscode: Gitlens.
+
+git config --list    Esse comando lista todas as configurações do git
+
+git config --global user.name "John Doe"    Esse comando configura o nome de usuário nas variáveis git, ou seja, esse nome irá aparecer nos commits
+git config --global user.email johndoe@example.com    Esse comando configura o email
+
+git status     Primeiro comando para verificar os arquivos alterados e novos
+
+git add <nome-do-arquivo> ou git add .        O git add seguido do nome do arquivo vai adicionar para subir somente aquele arquivo, se for 
+o segundo comando git add .  com o ponto após o add, irá adicionar todos os arquivos para subir
+
+git commit -m "Texto do commit"        Esse comando "assina" tudo que foi adicionado para subir no git add . , ou seja, ele pega os arquivos preparados e aguarda somente o próximo comando para subir os arquivos
+
+
