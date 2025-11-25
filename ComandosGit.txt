@@ -22,3 +22,5 @@ git checkout <nome-da-branch>      Troca de branchs
 git checkout -b <nome-da-branch>      Cria uma branch a partir da qual está naquele momento, ou seja uma cópia
 
 git branch -a         Lista todas as branchs locais
+
+git pull origin <nome-da-branch>      Atualiza a branch atual com a escrita após o origin
